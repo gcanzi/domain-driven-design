@@ -1,0 +1,25 @@
+# ==== IntelliJ IDEA ====
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ==== Compilados Java ====
+*.class
+
+# ==== Build tools (Maven/Gradle) - caso venha a usar no futuro ====
+target/
+build/
+.gradle/
+
+# ==== Logs ====
+*.log
+
+# ==== Arquivos de sistema operacional ====
+.DS_Store
+Thumbs.db
+
+# ==== Arquivos temporários de editores ====
+*.swp
+*~
