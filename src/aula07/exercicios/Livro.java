@@ -45,11 +45,11 @@ public class Livro {
         this.preco = preco;
     }
 
-    public double desconto(double percentual) {
+    public double aplicarDesconto(double percentual) {
         return preco - (preco * percentual / 100);
     }
 
-    public int desconto(int valorFixo) {
+    public int aplicarDesconto(int valorFixo) {
         return (int) preco - valorFixo;
     }
 }
