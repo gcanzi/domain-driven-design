@@ -1,0 +1,12 @@
+package aula09.heranca.exercicio;
+
+public class Gato extends Animal {
+
+    public Gato(String nome, int idade) {
+        super(nome, idade);
+    }
+
+    public void miar() {
+        System.out.println(nome + " esta miando!");
+    }
+}
