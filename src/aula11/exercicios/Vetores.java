@@ -12,7 +12,7 @@ public class Vetores {
 
         for(int i=0; i<vetor.length; i++){
             System.out.print("Digite a nota do " + (i+1) + "° aluno: ");
-            vetor[i] = sc.nextInt();
+            vetor[i] = sc.nextDouble();
         }
 
         double soma = 0;
